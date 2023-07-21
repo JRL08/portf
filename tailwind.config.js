@@ -9,8 +9,13 @@ module.exports = {
     colors: {
       // Configure your color palette here
       primary: '#bb263a',
+      
     },
-    extend: {},
+    fontFamily:{
+      'sans': 'Montserrat', 
+    },
+    extend: {
+    },
   },
   plugins: [
     require('flowbite/plugin')
